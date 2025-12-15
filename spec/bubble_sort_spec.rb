@@ -1,7 +1,7 @@
 require 'spec_helper'
 require_relative '../lib/bubble_sort'
 
-RSpec.describe 'Sorting Algorithm' do
+RSpec.describe 'Bubble sort Algorithm' do
   describe 'inserction sort' do
     it 'Return an ascending sorted array' do
       expect(bubble_sort([10, 4, 8, 3, 11])).to eq([3, 4, 8, 10, 11])
